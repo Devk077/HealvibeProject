@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path("pdf//<int:appointment_id>", views.generate_pdf, name="view pdf"),
-    path("", views.index, name="index"),
+    path("healvibe-project-o6518oc5e-kapie077s-projects.vercel.app/", views.index, name="index"),
 ]
